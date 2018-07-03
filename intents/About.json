@@ -1,0 +1,111 @@
+{
+  "id": "7be6b735-c26e-4d99-b923-b48cd4390339",
+  "name": "About",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "About-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "About-custom",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "About-custom-2",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "About-custom-3",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "About-custom-4",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    The Government of Andhra Pradesh has been making pioneering efforts to develop the State of Andhra Pradesh as an innovation society of global repute, with a focus on enhancing the quality of life of its citizens, through high-quality education and healthcare, increased productivity in agriculture and allied activities, creation of employment by promoting electronics and information technology, and all, by providing good governance.\n    \u003cbreak time\u003d\"2s\"/\u003e\n    Do you want to continue\n\u003c/speak\u003e"
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "About e-Pragati",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "vision",
+                "synonyms": []
+              },
+              "title": "Vision",
+              "description": "e-Pragati, the Andhra Pradesh State Enterprise Architecture, is this new paradigm. It is a mission-centric approach and a framework, to galvanize the pan-government ecosystem by transcending boundaries to design and deliver services in a coordinated, integrated, efficient and equitable way that citizens and businesses demand and deserve, aimed to realize the Sunrise Andhra Vision 2022."
+            },
+            {
+              "optionInfo": {
+                "key": "Principles",
+                "synonyms": []
+              },
+              "title": "Principles",
+              "description": "Tenets for e-Pragati are codified below as general propositions applicable across the government.\nThey form the basis for making decisions on state enterprise architecture."
+            },
+            {
+              "optionInfo": {
+                "key": "Value Proposition",
+                "synonyms": []
+              },
+              "title": "Value Proposition",
+              "description": "In future, Governments will be more connected than ever before by being FAST (Flat, Agile, Streamlined, and Tech-Savvy). With its ability to manage complexity, e-Pragati will emerge as the essential means to drive public sector transformation and realize connected government with demonstrable benefits."
+            },
+            {
+              "optionInfo": {
+                "key": "Big picture",
+                "synonyms": []
+              },
+              "title": "Big Picture",
+              "description": "To develop Andhra Pradesh as a society of innovation of global repute, with a focus on enhancing the quality of life of its citizens, through high quality education and healthcare, increased productivity in agriculture and allied activities, creation of requisite employment potential by promoting electronics and IT industries, and above all, by providing good governance."
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530162615,
+  "fallbackIntent": false,
+  "events": []
+}

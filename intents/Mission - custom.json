@@ -1,0 +1,67 @@
+{
+  "id": "02415622-45d7-4d3e-ad56-f669ac736798",
+  "parentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "rootParentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "name": "Mission - custom",
+  "auto": true,
+  "contexts": [
+    "Mission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Mission.Mission-custom",
+      "affectedContexts": [
+        {
+          "name": "Mission",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    The broad focus areas under primary sector mission include making agriculture and allied activities profitable and sustainable, mitigate drought through water conservation, manage post-harvest activities effectively, enhance storage, processing and value addition capacity.\n    \u003cbreak time\u003d\"2s\"/\u003e\n\u003c/speak\u003e",
+          "displayText": "The broad focus areas under primary sector mission include making agriculture and allied activities profitable and sustainable, mitigate drought through water conservation, manage post-harvest activities effectively, enhance storage, processing and value addition capacity."
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Do you want to continue\n\u003c/speak\u003e"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "back to Mission"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530098832,
+  "fallbackIntent": false,
+  "events": []
+}

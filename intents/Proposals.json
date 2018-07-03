@@ -1,0 +1,80 @@
+{
+  "id": "3c32af09-c6e4-4d5d-9cdb-4109e49ab1b9",
+  "name": "Proposals",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Proposals-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Proposals in E-prgahthi.\n    \u003cbreak time\u003d\"2s\"/\u003e\n    1.Empanelment\u003cbreak time\u003d\"200ms\"/\u003e\n    2.Cloud Services\u003cbreak time\u003d\"200ms\"/\u003e\n    3.Deparment \u003csay-as interpret-as\u003d\"characters\"\u003eRFP\u003c/say-as\u003e\u003cbreak time\u003d\"200ms\"/\u003e\n    Please choose one of the above\n    \u003cbreak time\u003d\"2s\"/\u003e\n    Do you want to continue\n\u003c/speak\u003e"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Proposals in e-Pragati",
+          "formattedText": "Provides three kind of Proposals.",
+          "image": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSfRzP8aC1ra-pXTC9UfJSFbtoT8GaJTEtA9ZGz9QBGQepAIx37",
+            "accessibilityText": "d"
+          },
+          "buttons": [
+            {
+              "title": "Link to know more",
+              "openUrlAction": {
+                "url": "http://e-pragati.in/proposals-aspx/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Empanelment"
+            },
+            {
+              "title": "Cloud services"
+            },
+            {
+              "title": "Department RFP\u0027s"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530162098,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "958601d9-ab0b-4a13-8a1c-8539fcec8e8e",
+  "parentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "rootParentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "name": "Mission - custom-6",
+  "auto": true,
+  "contexts": [
+    "Mission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Mission.Mission-custom-6",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Industry Sector Mission – strengthen un-organised sector, enhancing manufacturing contribution to GSDP, industry parks The Mission would focus on:\n    \u003cbreak time\u003d\"1s\"/\u003e\n\nAssist in achieving strategic outcomes as enshrined in the Swarnandhra Vision 2029.\u003cbreak time\u003d\"500ms\"/\u003e\nEnsure sustainable and inclusive industrial growth.\n\u003cbreak time\u003d\"2s\"/\u003e\nDo yu want to continue\n\u003c/speak\u003e",
+          "displayText": "Industry Sector Mission – strengthen un-organised sector, enhancing manufacturing contribution to GSDP, industry parks The Mission would focus on:\n\nAssist in achieving strategic outcomes as enshrined in the Swarnandhra Vision 2029\nEnsure sustainable and inclusive industrial growth"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Back"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530098958,
+  "fallbackIntent": false,
+  "events": []
+}

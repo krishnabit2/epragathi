@@ -1,0 +1,63 @@
+{
+  "id": "3a735ad9-3666-47b2-9f1f-c09e4a35fe9f",
+  "parentId": "7be6b735-c26e-4d99-b923-b48cd4390339",
+  "rootParentId": "7be6b735-c26e-4d99-b923-b48cd4390339",
+  "name": "About - custom-4",
+  "auto": true,
+  "contexts": [
+    "About-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "About.About-custom-4",
+      "affectedContexts": [
+        {
+          "name": "About",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    To develop Andhra Pradesh as a society of innovation of global repute, with a focus on enhancing the quality of life of its citizens, through high quality education and healthcare, increased productivity in agriculture and allied activities, creation of requisite employment potential by promoting electronics and IT industries, and above all, by providing good governance.\n    \u003cbreak time\u003d\"1s\"/\u003e\n\u003c/speak\u003e"
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n   Do you want to continue \n\u003c/speak\u003e"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Back to About"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530162419,
+  "fallbackIntent": false,
+  "events": []
+}

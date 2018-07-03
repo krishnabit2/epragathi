@@ -1,0 +1,87 @@
+{
+  "id": "7d581df8-f254-4483-b49d-343575383389",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\r\n    Welcome to  e-pragahthi. \u003cbreak time\u003d\"1s\"/\u003eAim\r\n  towards digital Andhra pradesh. \u003cbreak time\u003d\"1s\"/\u003e\r\n e-Pragahthi is a framework that provides integrated services tocitizens through free flow of information. It is going to be used to usher in an era of good governance, characterized by efficiency, effectiveness, transparency, and foresight.\r\nI will navigate you to\r\nAbout  e-pragahthi. \u003cbreak time\u003d\"500ms\"/\u003e\r\nMission. \u003cbreak time\u003d\"500ms\"/\u003e\r\nCore Platform. \u003cbreak time\u003d\"500ms\"/\u003e\r\nProposals . \u003cbreak time\u003d\"500ms\"/\u003e\r\nCareers in e-pragahthi. \u003cbreak time\u003d\"500ms\"/\u003e\r\nFor any queries contact us.\u003cbreak time\u003d\"500ms\"/\u003e\r\n\r\n\u003c/speak\u003e",
+          "displayText": "welcome"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Welcome to E-pragati",
+          "subtitle": "",
+          "formattedText": "Welcome to E-pragati,Towards digital AP........\ne-Pragati is a framework that provides integrated services to citizens through free flow of information. It is going to be used to usher in an era of good governance, characterized by efficiency, effectiveness, transparency, and foresight.\nPlease check below.",
+          "image": {
+            "url": "http://e-pragati.in/wp-content/uploads/2017/07/epragathi.png",
+            "accessibilityText": "c"
+          },
+          "buttons": [
+            {
+              "title": "e-Pragati",
+              "openUrlAction": {
+                "url": "http://e-pragati.in/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "About"
+            },
+            {
+              "title": "Mission of E-pragati"
+            },
+            {
+              "title": "Core Platform"
+            },
+            {
+              "title": "Proposals"
+            },
+            {
+              "title": "Careers"
+            },
+            {
+              "title": "Contact us"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530164395,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

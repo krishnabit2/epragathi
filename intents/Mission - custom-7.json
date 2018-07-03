@@ -1,0 +1,54 @@
+{
+  "id": "c080f9e8-f7e6-4c00-a1f5-87f658d5a36d",
+  "parentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "rootParentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "name": "Mission - custom-7",
+  "auto": true,
+  "contexts": [
+    "Mission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Mission.Mission-custom-7",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003eService Sector Mission – The mission focuses on enhancing job opportunities, IT based Governance, tourism. The Mission would focus on enhancing job opportunities and boosting GSDP through the following growth engines:\r\n\u003cbreak time\u003d\"1s\"/\u003e\r\n\r\nDeveloping identified tourism circuits.\u003cbreak time\u003d\"500ms\"/\u003e\r\nHarnessing the potential of education and health sector to offer high quality services to other states and countries\r\n\u003cbreak time\u003d\"2s\"/\u003e\r\nDo you want to continue\r\n\u003c/speak\u003e",
+          "displayText": "Service Sector Mission – The mission focuses on enhancing job opportunities, IT based Governance, tourism. The Mission would focus on enhancing job opportunities and boosting GSDP through the following growth engines:\n\nPreparing a strategy and action plan for enhancing job opportunities and boosting GSDP through sectors like tourism, construction, hospitality, financial services, education, IT, and other allied activities;\nDeveloping identified tourism circuits\nHarnessing the potential of education and health sector to offer high quality services to other states and countries;"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Back"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530099000,
+  "fallbackIntent": false,
+  "events": []
+}

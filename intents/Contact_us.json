@@ -1,0 +1,65 @@
+{
+  "id": "1ef98b58-2438-414a-93e6-1d5b6a1815a8",
+  "name": "Contact_us",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Location.\u003cbreak time\u003d\"500ms\"/\u003e\n    3rd Floor NTR Administrative Block, Pandit Nehru Bus Station,NH – 65, Vijayawada, pincode-520001, Andhra Pradesh, India.\n    \u003cbreak time\u003d\"2s\"/\u003e\n    Do you want to continue\n\u003c/speak\u003e"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Contact us",
+          "formattedText": "E-pragathi for your service",
+          "image": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSxhTapmFwOnDjYfDvr7hbYxhh8OvMGLB8QfA97gnsiMFcbNlKdDQ",
+            "accessibilityText": "e"
+          },
+          "buttons": [
+            {
+              "title": "contact_us",
+              "openUrlAction": {
+                "url": "http://e-pragati.in/contact/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530163982,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "c6f32158-d2ff-4e49-86bc-b181afb975ec",
+  "parentId": "7be6b735-c26e-4d99-b923-b48cd4390339",
+  "rootParentId": "7be6b735-c26e-4d99-b923-b48cd4390339",
+  "name": "About - custom",
+  "auto": true,
+  "contexts": [
+    "About-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "About.About-custom",
+      "affectedContexts": [
+        {
+          "name": "About",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    e-Pragati to be a catalyst for enhancing the effectiveness of implementing various developmental projects and welfare schemes undertaken by the government\n    \u003cbreak time\u003d\"1s\"/\u003e\nPlanning and monitoring of public sector schemes and projects to take advantage of GIS and satellite imaging technologies\n\u003cbreak time \u003d\"1s\"/\u003e\n\u003c/speak\u003e",
+          "displayText": "e-Pragati to be a catalyst for enhancing the effectiveness of implementing various developmental projects and welfare schemes undertaken by the government\nPlanning and monitoring of public sector schemes and projects to take advantage of GIS and satellite imaging technologies"
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Do you want to continue"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Back to About"
+            },
+            {
+              "title": "Exit"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530162401,
+  "fallbackIntent": false,
+  "events": []
+}

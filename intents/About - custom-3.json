@@ -1,0 +1,62 @@
+{
+  "id": "e3018546-5ee7-40a1-9fb4-120e8be778a4",
+  "parentId": "7be6b735-c26e-4d99-b923-b48cd4390339",
+  "rootParentId": "7be6b735-c26e-4d99-b923-b48cd4390339",
+  "name": "About - custom-3",
+  "auto": true,
+  "contexts": [
+    "About-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "About.About-custom-3",
+      "affectedContexts": [
+        {
+          "name": "About",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    In future, Governments will be more connected than ever before by being FAST (Flat, Agile, Streamlined, and Tech-Savvy). With its ability to manage complexity, e-Pragati will emerge as the essential means to drive public sector transformation and realize connected government with demonstrable benefits.\n    \u003cbreak time\u003d\"1s\"/\u003e\n\u003c/speak\u003e"
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Do you want to continue"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Back to About"
+            },
+            {
+              "title": "Exit"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530162449,
+  "fallbackIntent": false,
+  "events": []
+}

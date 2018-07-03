@@ -1,0 +1,60 @@
+{
+  "id": "85585153-1f30-4ecf-abfa-a11de738e0b2",
+  "parentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "rootParentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "name": "Mission - custom-2",
+  "auto": true,
+  "contexts": [
+    "Mission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Mission.Mission-custom-2",
+      "affectedContexts": [
+        {
+          "name": "Mission",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003eInclusive growth to be achieved through implementation of schemes and sub plans and efforts are to be taken to ensure that benefits reach the targeted group Harnessing the strength of the Self Help Groups and to generate employment, create awareness, improve water-use efficiency and inculcate cleanliness among citizens, stands at the core of the development agenda.\n\u003cbreak time\u003d\"2s\"/\u003e\nDo you want to continue\n\u003c/speak\u003e",
+          "displayText": "Inclusive growth to be achieved through implementation of schemes and sub plans and efforts are to be taken to ensure that benefits reach the targeted group Harnessing the strength of the Self Help Groups and to generate employment, create awareness, improve water-use efficiency and inculcate cleanliness among citizens, stands at the core of the development agenda."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "back"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530098901,
+  "fallbackIntent": false,
+  "events": []
+}

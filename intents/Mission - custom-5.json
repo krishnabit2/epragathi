@@ -1,0 +1,54 @@
+{
+  "id": "784a75b1-a7c4-4e1f-8016-2c038aab742f",
+  "parentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "rootParentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "name": "Mission - custom-5",
+  "auto": true,
+  "contexts": [
+    "Mission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Mission.Mission-custom-5",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Urban Development mission departments and sub-departments interact with other departments, within the State and also with line departments of Government of India, external agencies such as banks, other state governments, private agencies and development institutions for discharging various functions and delivery of e-Pragati services.\n    \u003cbreak time\u003d\"2s\"/\u003e\n    Do you want to continue\n\u003c/speak\u003e",
+          "displayText": "Urban Development mission departments and sub-departments interact with other departments, within the State and also with line departments of Government of India, external agencies such as banks, other state governments, private agencies and development institutions for discharging various functions and delivery of e-Pragati services."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "BACK"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530098867,
+  "fallbackIntent": false,
+  "events": []
+}

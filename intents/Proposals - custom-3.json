@@ -1,0 +1,74 @@
+{
+  "id": "39494166-c354-434d-be40-22cbb97d543a",
+  "parentId": "3c32af09-c6e4-4d5d-9cdb-4109e49ab1b9",
+  "rootParentId": "3c32af09-c6e4-4d5d-9cdb-4109e49ab1b9",
+  "name": "Proposals - custom-3",
+  "auto": true,
+  "contexts": [
+    "Proposals-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Proposals.Proposals-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Proposals",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Many RFP are present under the Government of AP.\n    \u003cbreak time\u003d\"2s\"/\u003e\n    Do you want to continue\n\u003c/speak\u003e"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "formattedText": "Many RFP are present under the Government of AP.",
+          "buttons": [
+            {
+              "title": "DEPARTMENT RFP\u0027S",
+              "openUrlAction": {
+                "url": "http://e-pragati.in/department-rfps/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "back to Proposals"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530098751,
+  "fallbackIntent": false,
+  "events": []
+}

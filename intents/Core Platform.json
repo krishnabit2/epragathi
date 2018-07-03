@@ -1,0 +1,66 @@
+{
+  "id": "9b87058d-bfe5-457f-9577-a19db5b00811",
+  "name": "Core Platform",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003eAt the heart of e-Pragahti lies the e-Pragahti Core Platform, which provides programlevel services, citizen related services rendered by each department, services internal to the department, provides API interface for applications external to the platform.\u003cbreak time\u003d\"2s\"/\u003e\n\n  Do you want to continue\n\u003c/speak\u003e",
+          "displayText": "."
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "e-Pragati Core Platform",
+          "formattedText": "“e-Pragati” is a software platform proposed to be implemented by ePragati Authority, consisting of 72 projects spanning across all major departments and components of GoAP.",
+          "image": {
+            "url": "https://i0.wp.com/e-pragati.in/wp-content/uploads/2017/07/img75-1024x576.jpg",
+            "accessibilityText": "core platform"
+          },
+          "buttons": [
+            {
+              "title": "Core Platform Features",
+              "openUrlAction": {
+                "url": "http://e-pragati.in/core-platform/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530162026,
+  "fallbackIntent": false,
+  "events": []
+}

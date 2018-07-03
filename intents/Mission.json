@@ -1,0 +1,97 @@
+{
+  "id": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "name": "Mission",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Mission-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "79b319e2-a03b-45c6-af75-067557fdd882",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    ePragati Authority seeks to help Gooverment of AP realize the vision of ,Sunrise AP 2022 by supporting the 7 development missions launched by the Government of AP in the areas of e-Governance\u003cbreak time\u003d\"2s\"/\u003e\n     1,Primary sector\u003cbreak time\u003d\"1000ms\"/\u003e\n     2,Social Empowerment\u003cbreak time\u003d\"1000ms\"/\u003e\n     3,Knowledge Skills\u003cbreak time\u003d\"1000ms\"/\u003e\n     4,Urban Development\u003cbreak time\u003d\"1000ms\"/\u003e\n     5,Industry sector\u003cbreak time\u003d\"1000ms\"/\u003e\n     6,Infrastructure sector\u003cbreak time\u003d\"1000ms\"/\u003e\n     7,Service sector\u003cbreak time\u003d\"1000ms\"/\u003e\n     Mention any of the above \n     \u003cbreak time\u003d\"3s\"/\u003e\n     Do you want to continue\n\u003c/speak\u003e"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Mission in E-pragati",
+          "formattedText": "Towards achieving the above, the GoAP has constituted the Andhra Pradesh e-Governance Authority as a society registered under the Andhra Pradesh Societies Registration Act, 2001 having its registered office at APIIC, Industrial Estate, Auto Nagar, Vijayawada, Andhra Pradesh (“ePragati Authority”). ePragati Authority seeks to help GoAP realize the vision of ‘Sunrise AP 2022’ by supporting the 7 development missions launched by the GoAP in the areas of eGovernance.",
+          "image": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQskndwAY5TgCCFCSBzoShDocUUEqTDtDHH7WD0Xr_I9d0Vdsld",
+            "accessibilityText": "G"
+          },
+          "buttons": [
+            {
+              "title": "Missions",
+              "openUrlAction": {
+                "url": "http://e-pragati.in/"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Primary Sector"
+            },
+            {
+              "title": "Social Empowerment"
+            },
+            {
+              "title": "Knowledge Skills"
+            },
+            {
+              "title": "Urban Development"
+            },
+            {
+              "title": "Industry Sector"
+            },
+            {
+              "title": "Infrastructure Sector"
+            },
+            {
+              "title": "Service Sector"
+            },
+            {
+              "title": "Home"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530164308,
+  "fallbackIntent": false,
+  "events": []
+}

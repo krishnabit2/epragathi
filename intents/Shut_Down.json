@@ -1,0 +1,65 @@
+{
+  "id": "66c22b37-4bd1-470a-a2e4-5fcd5681cfe4",
+  "name": "Shut_Down",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Thank you \n    \u003cbreak time\u003d\"300ms\"/\u003e\n    For any queries contact us\n\u003c/speak\u003e"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "subtitle": "Thank you",
+          "formattedText": "Contact us for any queries",
+          "image": {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcT4yphW1rhrSuamhbBmsDup6Ydco0bMVRjh__rbTInzC19JBMP_",
+            "accessibilityText": "a"
+          },
+          "buttons": [
+            {
+              "title": "Contact",
+              "openUrlAction": {
+                "url": "http://e-pragati.in/contact/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Contact us"
+            },
+            {
+              "title": "Home"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530162133,
+  "fallbackIntent": false,
+  "events": []
+}

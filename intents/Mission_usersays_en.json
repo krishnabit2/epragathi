@@ -1,0 +1,80 @@
+[
+  {
+    "id": "a8f1b2c8-8ade-416e-8f72-8d769f5cf7f8",
+    "data": [
+      {
+        "text": "Missions in e-pragathi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530162063
+  },
+  {
+    "id": "822fb876-7a14-4d2f-92d8-dd46493d1c9d",
+    "data": [
+      {
+        "text": "Tell me about mission",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530162063
+  },
+  {
+    "id": "a48b94e3-45eb-4486-8266-50dde8eeb92f",
+    "data": [
+      {
+        "text": "Back to ",
+        "userDefined": false
+      },
+      {
+        "text": "Mission",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530012776
+  },
+  {
+    "id": "81b60f15-f715-41dd-b00c-37d5da2181b1",
+    "data": [
+      {
+        "text": "Speak about missions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530012776
+  },
+  {
+    "id": "62a464f9-885c-4311-8142-2f5a1b328668",
+    "data": [
+      {
+        "text": "Mission of e-pragathi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530012776
+  },
+  {
+    "id": "402e7200-a56f-4055-b25e-6fc28b029621",
+    "data": [
+      {
+        "text": "Mission",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530012776
+  }
+]

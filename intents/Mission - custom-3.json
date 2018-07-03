@@ -1,0 +1,60 @@
+{
+  "id": "e5050ec5-84ad-430c-90d5-5980b92aa6aa",
+  "parentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "rootParentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "name": "Mission - custom-3",
+  "auto": true,
+  "contexts": [
+    "Mission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Mission.Mission-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Mission",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    The Andhra Pradesh Knowledge Mission will be built on the pillars of accessibility, affordability, partnerships and quality. The Mission objectives that will help Andhra Pradesh realise its potential to become an education and knowledge hub have been created bearing in mind the four pillars of the mission and the Hon’ble Chief Minister’s vision for holistic and sustainable growth.\n    \u003cbreak time\u003d\"2s\"/\u003e\n\nDo you want to continue\n\u003c/speak\u003e",
+          "displayText": "The Andhra Pradesh Knowledge Mission will be built on the pillars of accessibility, affordability, partnerships and quality. The Mission objectives that will help Andhra Pradesh realise its potential to become an education and knowledge hub have been created bearing in mind the four pillars of the mission and the Hon’ble Chief Minister’s vision for holistic and sustainable growth."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Shut Down"
+            },
+            {
+              "title": "Back"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530099033,
+  "fallbackIntent": false,
+  "events": []
+}

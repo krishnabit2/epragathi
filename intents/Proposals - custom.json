@@ -1,0 +1,54 @@
+{
+  "id": "4c314c8c-4da9-4ff0-a4a2-e6a8c35b2d1e",
+  "parentId": "3c32af09-c6e4-4d5d-9cdb-4109e49ab1b9",
+  "rootParentId": "3c32af09-c6e4-4d5d-9cdb-4109e49ab1b9",
+  "name": "Proposals - custom",
+  "auto": true,
+  "contexts": [
+    "Proposals-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Proposals.Proposals-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Envisioned by Honourable Chief Minister Sri N Chandrababu Naidu, a streamlined portal enables faster, secure, and consistent services for people and businesses across eGovernance, the primary sector, social empowerment, skill development, urban development, infrastructure, industrial development, and services. State departments will now use the power of the Pega platform and a stack of cutting-edge technologies to build applications, manage data \u0026 dashboards, and convert insights to actions across their operations realizing the vision of visible governance, invisible government\n    \u003cbreak time\u003d\"2s\"/\u003e\n    Do you want to continue\n\u003c/speak\u003e",
+          "displayText": "Envisioned by Hon’ble Chief Minister Sri N Chandrababu Naidu, a streamlined portal enables faster, secure, and consistent services for people and businesses across eGovernance, the primary sector, social empowerment, skill development, urban development, infrastructure, industrial development, and services. State departments will now use the power of the Pega platform and a stack of cutting-edge technologies to build applications, manage data \u0026 dashboards, and convert insights to actions across their operations realizing the vision of visible governance, invisible government"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "back to Proposals"
+            },
+            {
+              "title": "Home"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530098705,
+  "fallbackIntent": false,
+  "events": []
+}

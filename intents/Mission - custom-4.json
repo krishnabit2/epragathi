@@ -1,0 +1,66 @@
+{
+  "id": "73993110-c40d-4ab8-a00f-90b636742639",
+  "parentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "rootParentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+  "name": "Mission - custom-4",
+  "auto": true,
+  "contexts": [
+    "Mission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Mission.Mission-custom-4",
+      "affectedContexts": [
+        {
+          "name": "Mission",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Urban Development mission departments and sub-departments interact with other departments, within the State and also with line departments of Government of India, external agencies such as banks, other state governments, private agencies and development institutions for discharging various functions and delivery of e-Pragati services.\n    \u003cbreak time\u003d\"3s\"/\u003e\n\u003c/speak\u003e",
+          "displayText": "Urban Development mission departments and sub-departments interact with other departments, within the State and also with line departments of Government of India, external agencies such as banks, other state governments, private agencies and development institutions for discharging various functions and delivery of e-Pragati services."
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Do you want to continue"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Home"
+            },
+            {
+              "title": "back"
+            },
+            {
+              "title": "Shut Down"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530094297,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,64 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "e-pragathi",
+    "welcomeIntentSignInRequired": true,
+    "startIntents": [
+      {
+        "intentId": "7be6b735-c26e-4d99-b923-b48cd4390339",
+        "signInRequired": true
+      },
+      {
+        "intentId": "66c22b37-4bd1-470a-a2e4-5fcd5681cfe4",
+        "signInRequired": true
+      },
+      {
+        "intentId": "3cdd8e39-80f9-4637-ac51-6f30bf3b4b6c",
+        "signInRequired": true
+      },
+      {
+        "intentId": "1ef98b58-2438-414a-93e6-1d5b6a1815a8",
+        "signInRequired": true
+      },
+      {
+        "intentId": "3c32af09-c6e4-4d5d-9cdb-4109e49ab1b9",
+        "signInRequired": true
+      },
+      {
+        "intentId": "ec3dbfa6-5a91-47f3-9d92-2f844fdeb67f",
+        "signInRequired": true
+      },
+      {
+        "intentId": "9b87058d-bfe5-457f-9577-a19db5b00811",
+        "signInRequired": true
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Almaty",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2"
+}
